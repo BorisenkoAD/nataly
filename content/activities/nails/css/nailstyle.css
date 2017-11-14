@@ -14,7 +14,7 @@ h1{
 /* Заставка */
 .splash { 
 	/* Отступ для содержимого, помещенного в splash */
-	min-height: 750px;
+	min-height: 350px;
 	padding:2em 0 2em;
 	/* Картинка, которая используются для splash */
 	background-image:url(../img/splashnails.jpg);
