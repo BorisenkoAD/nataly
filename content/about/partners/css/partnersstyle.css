@@ -1,0 +1,137 @@
+body {
+	font-family: 'PT Sans Narrow', arial;
+}
+h1{
+	font-size: 36px;
+    line-height: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+/* Заставка */
+.splash { 
+	/* Отступ для содержимого, помещенного в splash */
+	min-height: 350px;
+	padding:2em 0 2em;
+	/* Картинка, которая используются для splash */
+	background-image:url(../img/splashpartners.jpg);
+	/* Масштабируем картинку с сохранением пропорций */
+	background-size:cover;
+	background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+	/* Запрещаем фоновому изображению прокручиваться, т.е. делаем его неподвижным 
+		background-attachment:fixed; */
+	/* Цвет текста */
+	color:#fff;
+	/* Выравниваем текста внутри splash по центру */
+	/*text-align:center;*/
+	position: relative;	
+}
+.partners {
+	min-height: 400px;
+	/* Отступ для содержимого, помещенного в splash */
+	padding:2em 0 2em;
+	/* Цвет текста */
+	color:#000;
+	/* Выравниваем текста внутри splash по центру 
+	text-align:center;*/
+	position: relative;		
+	background-color: #fffff1;
+}
+
+.about {
+	background-color: rgba(43, 46, 50, 0.5);	
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.padding-top-100 {padding-top: 100px;}
+.padding-top-70 {padding-top: 70px;}
+.padding-top-40 {padding-top: 40px;}
+.padding-bottom-70 {padding-bottom: 70px;} 
+
+.semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+  border: 1px solid #fff;
+}
+.semi-transparent-button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  padding: 12px 30px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* запасной цвет для старых браузеров */
+  background: rgba(255, 255, 255, 0.1);
+  /*border-radius: 8px;*/
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;  
+  border: 1px solid #e59a62;
+}
+.item{
+    background: #333;    
+    text-align: center;
+    /*height: 400px !important;*/
+}
+.block_progress {
+	/*height: 370px;*/
+    background: #fff;
+	/*padding: 30px 25px 30px 30px;
+	margin: 10px 10px;*/
+	/* border: 1px solid #000; */
+	border-radius: 6px;
+	position: relative;	
+}
+.block {
+	height: 370px;
+    background: #fff;
+	padding: 30px 25px 30px 30px;
+	/*margin: 10px 10px;*/
+	border-radius: 6px;
+	position: relative;
+}
+footer {
+	padding:2em 0 2em;
+	background-color: #353535;
+	color: #fff;
+}
+footer h5 {
+	color: #929ba7;
+}
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+footer li {
+/* float: left; */
+}
+footer nav ul li ul li a {
+    color: #ccc;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+	line-height: 1.8;
+}
+footer nav ul li ul li a:hover,
+footer nav ul li ul li a:focus,
+footer nav ul li ul li a:active {
+/*     color: #ccc;
+    color: rgba(255,255,255,.8); */
+    text-decoration: none;
+	line-height: 1.8;
+}
